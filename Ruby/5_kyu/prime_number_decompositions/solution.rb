@@ -120,15 +120,15 @@ end
 # p is_prime?(6) == false
 #
 # p primes_upto(75)
-# p sieve_of_eratosthenes(75)
+p sieve_of_eratosthenes(75)
 
-p getAllPrimeFactors(100) == [2,2,5,5]
-p getUniquePrimeFactorsWithCount(100) == [[2,5],[2,2]]
-p getUniquePrimeFactorsWithProducts(100) == [4,25]
-
-p getAllPrimeFactors('2')
-p getUniquePrimeFactorsWithCount('2')
-p getUniquePrimeFactorsWithProducts('2')
+# p getAllPrimeFactors(100) == [2,2,5,5]
+# p getUniquePrimeFactorsWithCount(100) == [[2,5],[2,2]]
+# p getUniquePrimeFactorsWithProducts(100) == [4,25]
+#
+# p getAllPrimeFactors('2')
+# p getUniquePrimeFactorsWithCount('2')
+# p getUniquePrimeFactorsWithProducts('2')
 
 # puts Benchmark.measure {
 #   p getAllPrimeFactors(100_000)
