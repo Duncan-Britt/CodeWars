@@ -104,6 +104,7 @@
         "cuchar": "cpp",
         "source_location": "cpp",
         "ranges": "cpp",
-        "syncstream": "cpp"
+        "syncstream": "cpp",
+        "filesystem": "cpp"
     }
 }
