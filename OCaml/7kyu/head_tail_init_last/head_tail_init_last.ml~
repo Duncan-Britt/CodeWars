@@ -1,0 +1,22 @@
+(*  TODO: implement the four functions specified.
+    The functions work on lists. *)
+
+let head xs = match xs with x :: _ -> x in
+
+let rec last xs = match xs with
+  | [x] -> x 
+  | x :: xs -> tail xs
+in
+
+let tail xs = match xs with
+  | [] -> []
+  | x :: xs -> xs
+in
+
+let rec init xs = match xs with
+  | [] -> []
+  | [x] -> []
+  | x :: [xn] -> [x]
+  | x :: xs -> x :: init xs
+in
+
